@@ -11,7 +11,7 @@ Result:
 140 84.147.24.50
 # 2. 500 and 200 HTTP codes number check
 Command: 
-echo "200: $(grep ' 200 ' access.log | wc -l)" && echo "500: $(grep ' 500 ' access.log | wc -l)"
+// echo "200: $(grep ' 200 ' access.log | wc -l)" && echo "500: $(grep ' 500 ' access.log | wc -l)"
 Result
 200: 405
 500: 378
